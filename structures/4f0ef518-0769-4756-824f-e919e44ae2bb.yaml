@@ -27,9 +27,9 @@ nodeDataArray:
     contractPremium: 3000000
     initialCommissionPerc: 0.15
     claimsCoveredPerc: 1
-    indiviualLimit: 200000000
+    individualLimit: 200000000
     individualExcess: 100000000
-    resintCost1: 0
+    reinstCost1: 0
     reinstCost2: 0
     reinstCost3: 0
     aggregateLimit: 400000000
