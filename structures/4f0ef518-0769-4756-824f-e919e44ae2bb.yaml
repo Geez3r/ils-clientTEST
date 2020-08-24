@@ -10,7 +10,6 @@ nodeDataArray:
     highlighted: false
     type: umbrellaHorizontal
     curviness: 1
-    sartDate: 01/01/2020
     limit: 10000
     excess: 25
     perils:
@@ -20,6 +19,37 @@ nodeDataArray:
     template: Risk XoL LOD
     startDate: 7/1/2020
     endDate: 30/6/2021
+    basis: LOD
+    currency: USD
+    mode: Standalone
+    percPlaced: 1
+    contractPremium: 3000000
+    initialCommissionPerc: 0.15
+    claimsCoveredPerc: 1
+    individualLimit: 200000000
+    individualExcess: 100000000
+    reinstCost1: 0
+    reinstCost2: 0
+    reinstCost3: 0
+    aggregateLimit: 400000000
+    aggregateExcess: 0
+    initialCollateral: 55000000
+  - key: 2
+    loc: 10 50
+    name: Contract 2
+    region: america
+    highlighted: false
+    type: umbrellaHorizontal
+    curviness: 1
+    limit: 10000
+    excess: 25
+    perils:
+      - 0
+      - 12
+    testCases: []
+    template: Risk XoL LOD
+    startDate: 7/1/2021
+    endDate: 30/6/2022
     basis: LOD
     currency: USD
     mode: Standalone
