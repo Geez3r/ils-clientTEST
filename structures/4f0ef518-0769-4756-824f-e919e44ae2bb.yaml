@@ -14,7 +14,7 @@ nodeDataArray:
     excess: 25
     perils:
       - 0
-      - 12
+      - 2
     testCases: []
     template: Risk XoL LOD
     startDate: 7/1/2020
@@ -45,7 +45,8 @@ nodeDataArray:
     excess: 25
     perils:
       - 0
-      - 12
+      - 1
+      - 2
     testCases: []
     template: Limit by Peril Risk XoL LOD
     startDate: 7/1/2021
@@ -75,8 +76,7 @@ nodeDataArray:
     limit: 10000
     excess: 25
     perils:
-      - 0
-      - 12
+      - 4
     testCases: []
     template: Limit by Peril Risk XoL LOD
     startDate: 7/1/2024
@@ -106,8 +106,7 @@ nodeDataArray:
     limit: 10000
     excess: 25
     perils:
-      - 0
-      - 12
+      - 4
     testCases: []
     template: Risk XoL LOD with Variable
     startDate: 7/1/2021
